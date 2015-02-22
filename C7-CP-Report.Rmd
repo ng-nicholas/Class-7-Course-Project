@@ -24,8 +24,6 @@ The following packages are used in the analysis of the given dataset:
 ```{r LoadPackages}
 suppressMessages(require("ggplot2"))
 suppressMessages(require("reshape2"))
-suppressMessages(require("xtable"))
-suppressMessages(require("apsrtable"))
 ```
 
 In order to understand the data better and pick regressors for the ideal model, pair-wise relationships between the available variables are explored via scatterplots created using the `pairs` command. In addition, the correlation coefficient matrix is calculated via the `cor` command and visually represented in a coloured heatmap after it has been melted into a easily processible data frame.
